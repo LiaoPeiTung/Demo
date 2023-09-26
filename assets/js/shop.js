@@ -75,6 +75,9 @@ let shop = {
             <div class="product-thumbnail-wrapper"><img class="product-thumbnail" src="` + this.allProducts[i].thumbnail + `"></div>
             <div class="product-name">` + this.allProducts[i].title + `</div>
             <div class="product-price-wrapper"><span class="product-price">`+ this.allProducts[i].price + `</span> 元</div>
+            <div>
+            <input type='text' value='購買數量'>
+            </div>            
             <button class="add-to-cart-button" productId = "`+ this.allProducts[i].id + `">加入購物車</button>
         </div>`
         }
